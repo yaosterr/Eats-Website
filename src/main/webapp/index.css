@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+   	overflow-x: hidden;
+}
+ 
+body {
+   	width:100%;
+   	font-family: Roboto, sans-serif;
+   	font-weight: 300;
+  	color: grey;
+}
+
+nav {
+    padding: 20px 30px 30px 30px;
+    margin-bottom: 45px;
+    margin-right: 65px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.no-style {
+    text-decoration: none !important;
+    color: black;
+}
+
+#buttons {
+	margin-top: 30px;
+	margin-right: 38px;
+	float: right;
+}
+
+#buttons > a:hover {
+	color: #bb0000;
+}
+
+#home, #favorites {
+	margin-right: 15px;
+}
+
+#logo {
+	font-family: Lobster;
+	color: #bb0000;
+	font-size: 50px;
+	font-weight: 80;
+	padding-left: 70px;
+}
+
+#banner {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 40px; 
+	border-radius: 15px;
+	width: 80%;
+}
+
+main .form-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+}
+
+.form-container .column {
+ 	flex: 0.4;
+	min-width: 200px;
+}
+
+.form-container .column:last-of-type {
+ 	display: flex;
+ 	gap: 25px;
+}
+
+.radio-buttons-container {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	gap: 25px;
+}
+
+.radio-element, .radio-element > input {
+	cursor: pointer;
+}
+
+#search_button {
+    height: 35px;
+    width: 60px;
+    border: 1px solid #ebebeb;
+    background-color: #bb0000;
+    font-size: 1em;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.textbox {
+	padding-left: 8px;
+    margin-bottom: 5px;
+    height: 35px;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+}
+
+.login-form-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 35px;
+}
+
+.login-form {
+	display: flex;
+	flex-flow: column;
+	gap: 10px;
+}
+
+.login-form .textbox {
+	width: 425px;
+}
+
+.login-button {
+	background-color: #bb0000;
+	color: white;
+	font-size: 15px;
+	height: 40px;
+	width: 425px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.login-button:hover {
+	background-color: #cf1313;
+}
+
+.login-button > i {
+	margin-right: 10px;
+}
+
+.terms {
+	cursor: pointer;
+}
+
+.error-message {
+	color: #bb0000;
+	font-size: 12px;
+	margin: 0;
+}
+
+.form-header {
+	margin-bottom: 10px;
+}
+
+#divider {
+	border-bottom: 1px solid #ebebeb;
+}
+
+#results-header {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 28px;
+	font-weight: 300;
+	border-bottom: 2px dotted #ebebeb;
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+#results-container {
+	display: flex;
+	flex-flow: column;
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+.result {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 2px dotted #ebebeb;
+	display: flex;
+	gap: 30px;
+}
+
+#detail {
+	border: none !important;
+}
+
+.result-info {
+	font-size: 18px;
+}
+
+#yelp-image {
+	object-fit: cover;
+	border-radius: 15px;
+	height: 250px;
+	width: 250px;
+}
+
+#yelp-image:hover {
+	outline: 4px solid #bb0000;
+}
+
+.yelp-link {
+	text-decoration: none !important;
+	color: grey;
+}
+
+.yelp-link:hover {
+	color: #bb0000;
+}
+
+#underline {
+	text-decoration: underline !important;
+}
+
+.favorite-button {
+	color: #666666;
+	background-color: #ffd200;
+	cursor: pointer;
+	font-size: 15px;
+	height: 40px;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+}
+
+.favorite-button:hover {
+	background-color: #fcca03;
+}
+
+#unfavorite {
+	color: white !important;
+	background-color: #bb0000 !important;
+}
+
+#unfavorite:hover {
+	color: white !important;
+	background-color: #c92a2a !important;
+}
+
+footer {
+	margin-top: 100px;
+	text-align: center;
+}
